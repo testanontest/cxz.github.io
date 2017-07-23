@@ -2,6 +2,10 @@
   font-family: 'AppleGaramond';
   src: url('fonts/AppleGaramond.woff') format('woff');
 }
+@font-face {
+  font-family: 'AppleGaramond-Italic';
+  src: url('fonts/AppleGaramond-Italic.woff') format('woff');
+}
 * {
   font-family: 'AppleGaramond';
   margin: 0;
@@ -49,7 +53,7 @@
 }
 .midbox {
   display: flex;
-  height: 450px;
+  height: 460px;
   width: 100%;
   background-color: #000;
 }
@@ -70,43 +74,44 @@
   transition: opacity .25s ease-in-out;
 }
 .midtext--footer {
-  border: 1px red solid;
-  display: flex;
+  display: block;
   font-size: 20px;
   color: #444;
   opacity: 0.2;
-  font-style: italic;
+  font-family: 'AppleGaramond-Italic';
+  font-size: 20px;
   padding-top: 5px;
   margin-right: 40px;
   text-decoration: none;
 }
 .midtext--footer:hover {
-  border: 1px red solid;
   color: #FFF;
   opacity: 1;
   transition: opacity .25s ease-in-out;
-  font-style: italic;
+  font-family: 'AppleGaramond-Italic';
   padding-top: 12px;
   margin-right: 40px;
   text-decoration: none;
+}
+.midtextlinedist {
+  margin-bottom: 1.5em;
 }
 .blackfade {
   opacity: 0;
   background-color: #000;
 }
 .blackfade:hover {
-  background-color: #FFF;
   opacity: 1;
   transition: opacity .25s ease-in-out;
 }
-.blackfade--test:hover {
-  opacity: 0;
-  color: #000;
+.blackfade--text:hover {
+  opacity: 1;
 }
 .blackfade--text {
-  color: #FFF;
-  opacity: 1;
-  transition: opacity .25s ease;
+  color: #000;
+  opacity: 0.2;
+  transition: opacity 0.4s ease-out;
+  text-decoration: underline;
 }
 .endbox {
   display: flex;
@@ -115,16 +120,12 @@ a {
   text-decoration: none;
   color: #000;
 }
+/*
 a:hover {
   text-decoration: underline;
-  color: #FFF;
+  color: #DDD;
   opacity: 0.5;
 }
-em {
-  font-style: normal;
-}
-
-/*
 .button {
   color: #FFF;
   background-color: #5995DA;
@@ -148,10 +149,7 @@ em {
   border: 1px black solid;
   float: left;
 }
-*/
-
-
-/*.box0{
+.box0{
   background-color: #0033ff;
   background-image: url('back.png');
   background-repeat: repeat;
