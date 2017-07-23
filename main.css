@@ -137,3 +137,16 @@ a {
   background-image: url('back.png');
   background-repeat: repeat;
 }*/
+gn: center;
+  width: 40px;
+  border: 1px black solid;
+  float: left;
+}
+*/
+
+
+/*.box0{
+  background-color: #0033ff;
+  background-image: url('back.png');
+  background-repeat: repeat;
+}*/
