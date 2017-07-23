@@ -13,22 +13,24 @@
 }
 .box1 {
   width: 95%;
+  height: 1200px;
   background-color: #333;
   margin: 0 auto;
   overflow: hidden;
 }
 .hbar {
   display: flex;
-}
-.fjust-menu {
-  display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 0px 20px 6px 20px;
+  padding: 0px 20px 5px 20px;
   width: 100%;
   font-size: 30px;
   transition: opacity .25s ease;
   opacity: 1;
+}
+.hbar:hover {
+  color: #22DD00;
+  text-decoration-color: #22DD00;
 }
 
 /*.fjust-menu:hover {
@@ -50,6 +52,10 @@
   height: 450px;
   width: 100%;
   background-color: #000;
+}
+.midimage {
+  justify-content: right;
+  margin: auto 0;
 }
 .midtext {
   display: flex;
@@ -102,10 +108,6 @@
   opacity: 1;
   transition: opacity .25s ease;
 }
-.midimage {
-  justify-content: right;
-  margin: auto 0;
-}
 .endbox {
   display: flex;
 }
@@ -113,9 +115,15 @@ a {
   text-decoration: none;
   color: #000;
 }
+a:hover {
+  text-decoration: underline;
+  color: #FFF;
+  opacity: 0.5;
+}
 em {
   font-style: normal;
 }
+
 /*
 .button {
   color: #FFF;
