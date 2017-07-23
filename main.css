@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'AppleGaramond';
+  src: url('fonts/AppleGaramond.woff') format('woff');
+}
+* {
+  font-family: 'AppleGaramond';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box0 {
+  background-color: #222;
+}
+.box1 {
+  width: 95%;
+  background-color: #333;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.hbar {
+  display: flex;
+}
+.fjust-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px 20px 25px 20px;
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+.fjust-start {
+  justify-content: flex-start;
+}
+.fjust-end {
+  justify-content: flex-end;
+}
+.fjust-center {
+  justify-content: center;
+}
+.midbox {
+  display: flex;
+  height: 450px;
+  width: 100%;
+  background-color: #000;
+}
+.midtext {
+  display: block;
+  font-size: 100px;
+  color: #FFF;
+  float: left;
+}
+.imgblack {
+  background-color: #000;
+}
+.blackfade{
+  opacity: 0;
+  background-color: #000;
+}
+.blackfade:hover {
+  background-color: #FFF;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+}
+.midimage {
+  justify-content: right;
+  margin: auto 0;
+}
+.endbox {
+  display: flex;
+}
+
+/*
+.button {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 2px;
+  width: 200px;
+  margin: 20px auto;
+}
+.button:hover {
+  color: #111;
+  background-color: #585858;
+}
+.inlinemenu {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  width: 40px;
+  border: 1px black solid;
+  float: left;
+}
+*/
+
+
+/*.box0{
+  background-color: #0033ff;
+  background-image: url('back.png');
+  background-repeat: repeat;
+}*/
