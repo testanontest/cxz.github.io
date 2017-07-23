@@ -97,12 +97,12 @@
   margin-bottom: 1.5em;
 }
 .blackfade {
-  opacity: 0;
+  opacity: 0.4;
   background-color: #000;
 }
 .blackfade:hover {
   opacity: 1;
-  transition: opacity .25s ease-in-out;
+  transition: opacity .4s ease;
 }
 .blackfade--text:hover {
   opacity: 1;
