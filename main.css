@@ -24,10 +24,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 5px 20px 25px 20px;
-  border-bottom: 2px solid black;
+  padding: 0px 20px 6px 20px;
   width: 100%;
+  font-size: 30px;
+  transition: opacity .25s ease;
+  opacity: 1;
 }
+/*.fjust-menu:hover {
+  color: #FFF;
+  opacity: 0;
+}*/
 .fjust-start {
   justify-content: flex-start;
 }
@@ -48,11 +54,29 @@
   font-size: 100px;
   color: #FFF;
   float: left;
+  opacity : 0.5;
 }
-.imgblack {
-  background-color: #000;
+.midtext:hover {
+  color: #EEF;
+  opacity: 1;
+  transition: opacity .25s ease-in-out; 
 }
-.blackfade{
+.midtext--footer {
+  display: block;
+  border: 3px solid #EEE;
+  font-size: 20px;
+  color: #444;
+  float: left;
+  opacity : 0.2;
+  margin: 2px;
+}
+.midtext--footer:hover {
+  color: #FFF;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  border: 0px solid #666;
+}
+.blackfade {
   opacity: 0;
   background-color: #000;
 }
@@ -61,6 +85,15 @@
   opacity: 1;
   transition: opacity .25s ease-in-out;
 }
+.blackfade--test:hover {
+  opacity: 0;
+  color: #000;
+}
+.blackfade--text {
+  color: #FFF;
+  opacity: 1;
+  transition: opacity .25s ease;
+}
 .midimage {
   justify-content: right;
   margin: auto 0;
@@ -68,7 +101,10 @@
 .endbox {
   display: flex;
 }
-
+a {
+  text-decoration: none;
+  color: #000;
+}
 /*
 .button {
   color: #FFF;
